@@ -87,7 +87,7 @@ article:nth-of-type(1) button {
   font-weight: 600;
   box-shadow: 0 3px 10px 0 #ddd;
 }
-section:not(.grow-together) {
+section:not(.grow-together, .your-users) {
   margin-bottom: 7rem
 }
 section img {
@@ -147,7 +147,251 @@ section img {
     max-width: 100%;
   }
 }
+.grow-together img {
+  margin-bottom: 2rem;
+}
 .grow-together .text {
   text-align: center;
   margin-top: 2rem;
+}
+.grow-together .text h1 {
+  margin-bottom: 1rem;
+}
+.grow-together .text p {
+  margin: 0 5px
+}
+@media(min-width: 768px) {
+  .grow-together .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .grow-together img {
+    margin: 0;
+    width: 40%;
+  }
+  .grow-together .text {
+    width: 45%;
+    text-align: start
+  }
+  .grow-together .text h1 {
+    font-size: 2.5rem;
+  }
+}
+.flowing-conversations {
+  margin: 7rem 0;
+}
+.flowing-conversations img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+.flowing-conversations .text {
+  text-align: center;
+  margin-top: 2rem;
+}
+.flowing-conversations .text h1 {
+  margin-bottom: 1rem;
+}
+.flowing-conversations .text p {
+  margin: 0 2px
+}
+@media(min-width: 768px) {
+  .flowing-conversations .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flowing-conversations img {
+    margin: 0;
+    width: 40%;
+  }
+  .flowing-conversations .text {
+    width: 45%;
+    text-align: start
+  }
+  .flowing-conversations .text h1 {
+    font-size: 2.5rem;
+  }
+}
+.your-users {
+  padding: 6.5rem 0;
+  background-color: #f5fbff;
+}
+@media(min-width: 768px) {
+  .stm-2,
+  .sbm-2{
+    display: none;
+  }
+  .std-2,
+  .sbd-2{
+    margin-bottom: -10px;
+    max-width: 100%;
+  }
+}
+@media( max-width: 767px) {
+  .std-2,
+  .sbd-2{
+    display: none;
+  }
+  .stm-2,
+  .sbm-2{
+    margin-bottom: -10px;
+    max-width: 100%;
+  }
+}
+.your-users img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+.your-users .text {
+  text-align: center;
+  margin-top: 2rem;
+}
+.your-users .text h1 {
+  margin-bottom: 1rem;
+}
+.your-users .text p {
+  margin: 0 2px
+}
+@media(min-width: 768px) {
+  .your-users .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .your-users img {
+    margin: 0;
+    width: 40%;
+  }
+  .your-users .text {
+    width: 45%;
+    text-align: start
+  }
+  .your-users .text h1 {
+    font-size: 2.5rem;
+  }
+}
+section:last-of-type {
+  margin: 7rem 0;
+}
+section:last-of-type .container {
+  text-align: center;
+}
+section:last-of-type .container h1 {
+  margin-bottom: 2rem;
+}
+@media(min-width: 678px) {
+  section:last-of-type .container h1 {
+    font-size: 2.5rem;
+  }
+}
+section:last-of-type .container button {
+  border: none;
+  background-color: var(--Pink);
+  color: white;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  padding: 0.7rem 2rem;
+  box-shadow: 0px 3px 10px 0 #ddd;
+}
+@media(min-width: 768px) {
+  .ftm {
+    display: none;
+  }
+  .ftd {
+    max-width: 100%;
+    margin-bottom: -10px
+  }
+}
+@media(max-width: 767px) {
+  .ftd {
+    display: none;
+  }
+  .ftm {
+    max-width: 100%;
+    margin-bottom: -10px
+  }
+}
+footer {
+    background-color: var(--Very-Dark-Cyan);
+    padding: 6.5rem 0 3rem 0;
+}
+footer .part:nth-child(1) {
+  margin-bottom: 7rem
+}
+footer h2{
+  margin-bottom: 1rem;
+  color: white;
+}
+footer p {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 2rem
+}
+footer input {
+  border: none;
+  padding: 0.8rem;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+footer input:focus {
+  outline: none;
+}
+footer button {
+  border-radius: 8px;
+  padding: 0.8rem;
+  background-color: var(--Pink);
+  color: white;
+  display: block;
+  margin-left: auto;
+  width: 150px;
+  border: none;
+  font-weight: 700;
+}
+footer .part:nth-child(2) > img {
+  filter: brightness(0) invert(1);
+  width: 150px;
+  margin-bottom: 1rem
+}
+footer .part .phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem
+}
+footer .part .phone img,
+footer .part .email img{
+  width: 20px;
+  margin-right: 20px
+}
+footer span {
+  color: white
+}
+footer .socials {
+  margin: 3rem 0;
+}
+footer .socials i {
+  color: white;
+  margin-left: 1rem
+}
+@media(min-width: 768px) {
+  footer .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  footer .part {
+    width: 34%
+  }
+  footer .field {
+    display: flex;
+    align-items: center;
+  }
+  footer .field input {
+    margin: 0 1rem 0 0
+  }
 }
