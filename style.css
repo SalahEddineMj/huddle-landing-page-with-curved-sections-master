@@ -90,8 +90,15 @@ article:nth-of-type(1) button {
 section:not(.grow-together, .your-users) {
   margin-bottom: 7rem
 }
-section img {
+.screen img {
   max-width: 100%;
+}
+@media(min-width: 768px) {
+  .screen img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block
+  }
 }
 .statistics {
   text-align: center;
@@ -132,7 +139,7 @@ section img {
   }
   .std-1,
   .sbd-1{
-    margin-bottom: -10px;
+    margin-bottom:-6px;
     max-width: 100%;
   }
 }
@@ -143,12 +150,13 @@ section img {
   }
   .stm-1,
   .sbm-1{
-    margin-bottom: -10px;
+    margin-bottom: -6px;
     max-width: 100%;
   }
 }
 .grow-together img {
   margin-bottom: 2rem;
+  max-width: 100%
 }
 .grow-together .text {
   text-align: center;
@@ -225,7 +233,7 @@ section img {
   }
   .std-2,
   .sbd-2{
-    margin-bottom: -10px;
+    margin-bottom: -6px;
     max-width: 100%;
   }
 }
@@ -236,7 +244,7 @@ section img {
   }
   .stm-2,
   .sbm-2{
-    margin-bottom: -10px;
+    margin-bottom: -6px;
     max-width: 100%;
   }
 }
@@ -302,7 +310,7 @@ section:last-of-type .container button {
   }
   .ftd {
     max-width: 100%;
-    margin-bottom: -10px
+    margin-bottom: -6px
   }
 }
 @media(max-width: 375px) {
@@ -311,7 +319,7 @@ section:last-of-type .container button {
   }
   .ftm {
     max-width: 100%;
-    margin-bottom: -10px
+    margin-bottom: -6px
   }
 }
 footer {
