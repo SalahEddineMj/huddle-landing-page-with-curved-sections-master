@@ -125,7 +125,7 @@ section img {
   padding: 6.5rem 0;
   background-color: #f5fbff;
 }
-@media(min-width: 768px) {
+@media(min-width: 375px) {
   .stm-1,
   .sbm-1{
     display: none;
@@ -136,7 +136,7 @@ section img {
     max-width: 100%;
   }
 }
-@media( max-width: 767px) {
+@media( max-width: 375px) {
   .std-1,
   .sbd-1{
     display: none;
@@ -218,7 +218,7 @@ section img {
   padding: 6.5rem 0;
   background-color: #f5fbff;
 }
-@media(min-width: 768px) {
+@media(min-width: 375px) {
   .stm-2,
   .sbm-2{
     display: none;
@@ -229,7 +229,7 @@ section img {
     max-width: 100%;
   }
 }
-@media( max-width: 767px) {
+@media( max-width: 375px) {
   .std-2,
   .sbd-2{
     display: none;
